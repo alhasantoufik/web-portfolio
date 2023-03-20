@@ -1,5 +1,6 @@
 body{
     font-family: 'Merriweather', serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -15,4 +16,31 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("/images/top-banner.png") ;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    bottom padding: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight:700 ;
+
+
+}
+.name-highlight-dream{
+    color: orange;
+}
+.dream-area{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
